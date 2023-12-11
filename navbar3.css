@@ -1,0 +1,32 @@
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ddd;
+    background: linear-gradient(to right, grey, darkgray,black,grey,black,darkgray);
+}
+li
+{
+    float: right;
+    font-size: 1em;
+}
+a
+{
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    background-color: black;
+    border-radius: 15px;
+}
+.active
+{
+    background-color: darkgray;
+    border-radius: 15px;
+}

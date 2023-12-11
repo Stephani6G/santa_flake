@@ -1,0 +1,40 @@
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    opacity: 0.8;
+    width: 45px;
+    height: 100vh;
+}
+li a
+{
+    display: block;
+    width: 50px;
+    padding:20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 35px;
+    color:black;
+    justify-content: center;
+    position: sticky;
+    justify-content: space-around;
+    background-color: hsl(167, 85%, 38%);
+    border-radius: 15px;
+}
+.active
+{
+    background-color: rgb(32, 32, 155);
+    color:white;
+}
+.active:hover
+{
+    background-color: deeppink;
+}
+a:hover
+{
+    background-color: deepskyblue;
+    transform: scale(1.1);
+}
